@@ -37,20 +37,20 @@ java Main
 
 ### Example Gameplay
 ```
-X  X  X  X 
-X  X  X  X 
-X  X  X  X 
-X  X  X  X 
+🎈 🎈 🎈 🎈 
+🎈 🎈 🎈 🎈 
+🎈 🎈 🎈 🎈 
+🎈 🎈 🎈 🎈 
 
 Enter coordinates for player 1: 0 0
 Enter coordinates for player 2: 1 1
 P1:5
 P2:12
 
-5  X  X  X 
-X  12 X  X 
-X  X  X  X 
-X  X  X  X 
+5  🎈 🎈 🎈 
+🎈 12 🎈 🎈 
+🎈 🎈 🎈 🎈 
+🎈 🎈 🎈 🎈 
 ```
 
 ## 📁 Project Structure
@@ -77,7 +77,7 @@ The entry point of the game that orchestrates the game flow:
 Manages board creation and display:
 - **`createBoard()`**: Creates a 4x4 board with random unique values (0-15)
 - **`showBoard(String[][] arr)`**: Displays the current game board state
-- **`dummyBoard()`**: Creates a display board initialized with "X" markers
+- **`dummyBoard()`**: Creates a display board initialized with balloon emojis (🎈)
 - **`boolBoard()`**: Creates a boolean tracking board to mark used coordinates
 
 ### balloon/Players.java
